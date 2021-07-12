@@ -2,6 +2,7 @@ import pytesseract
 import string
 from image_utils import download_image, preprocess_image
 
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 def solve_captcha(url: str) -> str:
     image = download_image(url)
