@@ -6,7 +6,7 @@ import time
 from datetime import datetime, timedelta
 from bot_plus import BotPlus as Bot
 
-MAX_DELAY = 200
+MAX_DELAY = 100
 TRAP_CHECK_PRIORITY = 1
 HORN_PRIORITY = 2
 
