@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Response
 from captcha_solver import solve_captcha
 import uvicorn
+import os
 
 app = FastAPI()
 
