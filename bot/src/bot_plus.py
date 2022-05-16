@@ -40,6 +40,7 @@ class BotPlus(Bot):
             for keyword in self.keywords:
                 if keyword in entry:
                     telebot.send_message(entry)
+                    break
 
     def check_bait_empty(self, user_data: dict):
         bait_qty = user_data['bait_quantity']
@@ -47,7 +48,7 @@ class BotPlus(Bot):
             return
 
         is_rift = user_data['environment_name'].endswith('Rift')
-        is_queso = user_data['environment_name'] in ['Prickly Plains', 'Cantera Quarry']
+        is_queso = user_data['environment_name'] in ['Prickly Plains', 'Cantera Quarry', 'Queso Geyser']
         if is_rift:
             cheese = 'brie_string_cheese'
         elif is_queso:
