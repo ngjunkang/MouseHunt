@@ -1,1 +1,1 @@
-web: python3 captcha/app/main.py
+web: python captcha/app/main.py
