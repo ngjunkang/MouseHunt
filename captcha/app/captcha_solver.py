@@ -1,5 +1,6 @@
 import pytesseract
 import string
+import os
 from image_utils import download_image, preprocess_image
 
 pytesseract.pytesseract.tesseract_cmd = os.environ.get("TESS_PATH", r'/usr/bin/tesseract')
