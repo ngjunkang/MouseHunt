@@ -10,7 +10,6 @@ MAX_DELAY = 100
 TRAP_CHECK_PRIORITY = 1
 HORN_PRIORITY = 2
 
-
 def main():
     username = os.environ['MH_USERNAME']
     password = os.environ['MH_PASSWORD']
@@ -19,7 +18,7 @@ def main():
 
     captcha_host = os.environ.get('CAPTCHA_HOST', 'localhost')
     captcha_port = int(os.environ.get('CAPTCHA_PORT', '8080'))
-    captcha_url = f'http://{captcha_host}:{captcha_port}'
+    captcha_url = os.environ.get('CAPTCHA_URL', f'http://{captcha_host}:{captcha_port}')
 
     if keywords is None:
         bot = Bot(username, password, trap_check, captcha_url)
