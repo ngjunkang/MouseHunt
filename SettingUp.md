@@ -28,6 +28,7 @@ This is the instructions to run auto bot on Heroku.
 4. Using shell application, push the code to Heroku using the following command (heroku-captcha is one of the branches in this repository, and we are pushing to master branch of the Heroku repository),
 
 ```
+git checkout heroku-captcha
 git push heroku heroku-captcha:master
 ```
 
@@ -49,6 +50,7 @@ Note: The free version of Heroku provides 550 hours of running time per month, w
 3. Using shell application, push the code to Heroku using the following command (heroku-bot is one of the branches in this repository, and we are pushing to master branch of the Heroku repository),
 
 ```
+git checkout heroku-bot
 git push heroku heroku-bot:master
 ```
 
