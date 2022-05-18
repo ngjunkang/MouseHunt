@@ -25,7 +25,7 @@ This is the instructions to run auto bot on Heroku.
 
 3. Then, on the same page, add this Buildpack under Buildpacks, `https://github.com/heroku/heroku-buildpack-apt`. Also, ensure that you have the `heroku/python` buildpack, else add the official python buildpack.
 
-4. Push the code to Heroku using the following command (heroku-captcha is one of the branches in this repository, and we are pushing to master branch of the Heroku repository) via shell application,
+4. Using shell application, push the code to Heroku using the following command (heroku-captcha is one of the branches in this repository, and we are pushing to master branch of the Heroku repository),
 
 ```
 git push heroku heroku-captcha:master
@@ -44,9 +44,9 @@ Note: The free version of Heroku provides 550 hours of running time per month, w
     3. `MH_TRAP_CHECK` = your trap check timing (0, 15, 30, 45)
     4. `CAPTCHA_URL` = your Captcha API URL or someone's URL
 
-2. Under Buildpacks, ensure that you have the `heroku/python` buildpack, else add the official python buildpack.
+2. On the same page, under Buildpacks, ensure that you have the `heroku/python` buildpack, else add the official python buildpack.
 
-3. Push the code to Heroku using the following command (heroku-bot is one of the branches in this repository, and we are pushing to master branch of the Heroku repository),
+3. Using shell application, push the code to Heroku using the following command (heroku-bot is one of the branches in this repository, and we are pushing to master branch of the Heroku repository),
 
 ```
 git push heroku heroku-bot:master
