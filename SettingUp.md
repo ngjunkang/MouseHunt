@@ -31,7 +31,7 @@ This is the instructions to run auto bot on Heroku.
 git push heroku heroku-captcha:master
 ```
 
-The API will then be accessible @ `<app_name>.herokuapp.com`, if your app name is mhbot, then the URL is `mhbot.herokuapp.com`.
+The API will then be accessible @ `https://<app_name>.herokuapp.com`, if your app name is mhbot, then the URL is `https://mhbot.herokuapp.com`.
 
 ## Setting up AutoBot
 
