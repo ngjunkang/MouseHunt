@@ -39,7 +39,6 @@ Note: The free version of Heroku provides 550 hours of running time per month, w
 
 
 1. Go to Settings of app, under Config Vars, add two environment variable as follows,
-Jun Kang Ng, [18 May 2022 at 12:23:30 AM]:
     1. `MH_USERNAME` = your username
     2. `MH_PASSWORD` = your password
     3. `MH_TRAP_CHECK` = your trap check timing (0, 15, 30, 45)
