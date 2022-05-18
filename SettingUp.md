@@ -52,3 +52,8 @@ Note: The free version of Heroku provides 550 hours of running time per month, w
 git push heroku heroku-bot:master
 ```
 
+4. Using shell application, activate a worker,
+```
+heroku ps:scale worker=1
+```
+
