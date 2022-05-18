@@ -4,4 +4,4 @@ forked from https://github.com/gabrielwong159/MouseHunt
 using the no-selenium version which is less computational intensive
 edited to suit my gaming needs.
 
-Heroku hosting support is available [here](#SettingUp.md).
+Heroku hosting support is available [here](SettingUp.md).
